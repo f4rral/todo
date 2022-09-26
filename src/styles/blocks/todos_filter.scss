@@ -1,0 +1,34 @@
+.todos_filter {
+  display: flex;
+  padding: 8px;
+
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.16);
+}
+
+.todos_filter__title {
+  padding: 4px;
+  margin-right: 16px;
+}
+.todos_filter__buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.todos_filter__button {
+  padding: 4px;
+  margin-left: 8px;
+  margin-right: 8px;
+
+  border: none;
+  cursor: pointer;
+  background: none;
+
+  &:disabled {
+    color: #5179c1;
+  }
+
+  &:not(:disabled):hover {
+    color: #a4a4ac;
+  }
+}

@@ -1,0 +1,62 @@
+.add_todo {
+  padding: 16px;
+
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.16);
+}
+
+.add_todo__form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: -16px;
+  margin-left: -24px;
+
+  & > * {
+    margin-left: 24px;
+  }
+}
+
+.add_todo__input {
+  flex-grow: 1;
+  max-width: calc(100% - 24px);
+  height: 40px;
+  margin-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  font-size: 20px;
+
+  border: none;
+  border-bottom: 1px solid #cccccc;
+}
+
+.add_todo__buttons_wrapper {
+  display: flex;
+  margin-bottom: 16px;
+
+  & > * {
+    margin-left: 16px;
+  }
+
+  & > *:first-child {
+    margin-left: 0;
+  }
+}
+
+.add_todo__button {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+
+  border: none;
+  background-color: #eeeeee;
+  border-radius: 50%;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover {
+    background: #cccccc;
+  }
+}

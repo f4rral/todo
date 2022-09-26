@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+
+}
+
+body {
+  background-color: #fafafa;
+  font-family: "Nimbus Sans", "Roboto", sans-serif;
+}
+
+.section {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.message {
+  min-height: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+  font-size: 16px;
+  line-height: 1;
+}
+
+.global {
+  &--mt_40 {
+    margin-top: 40px;
+  }
+
+  &--mb_40 {
+    margin-bottom: 40px;
+  }
+
+  &--mt_24 {
+    margin-top: 24px;
+  }
+
+  &--mb_24 {
+    margin-bottom: 24px;
+  }
+
+  &--mt_16 {
+    margin-top: 16px;
+  }
+
+  &--mb_16 {
+    margin-bottom: 16px;
+  }
+}

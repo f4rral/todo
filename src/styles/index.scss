@@ -1,0 +1,9 @@
+@import "global.scss";
+@import "font.scss";
+
+// Блоки
+@import "./blocks/header.scss";
+@import "./blocks/main.scss";
+@import "./blocks/add_todo.scss";
+@import "./blocks/todos_items.scss";
+@import "./blocks/todos_filter.scss";
